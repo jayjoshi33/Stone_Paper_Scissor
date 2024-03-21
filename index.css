@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1
+{
+    background-color: rgb(206, 163, 5);
+    color: cornsilk;
+    line-height: 5rem;
+}
+.option
+{
+    height: 250px;
+    width: 180px;
+}
+img
+{
+    height: 200px;
+    width: 120px;
+
+}
+
+.option-box
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+.option :hover
+{
+    opacity: 0.3;
+    cursor: pointer;
+}
+.result-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    font-size: x-large;
+}
+
+.output-msg
+{
+    font-size:xx-large;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+    background-color:rgb(5, 206, 163); /* Adjusted hue */
+    ;
+    /* background-color:rgb(66, 96, 36) ; */
+    color: rgb(0, 0, 0);
+    margin: 0 auto; /* Centering the div horizontally */
+    max-width: 40%;
+    /* height: 100px;
+    width: 100px; */
+}
